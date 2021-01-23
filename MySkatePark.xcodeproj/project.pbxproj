@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		92ACF89C25BCECE300569A0A /* MySkatePark.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MySkatePark.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		92ACF89C25BCECE300569A0A /* Mini Skate Park.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini Skate Park.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92ACF89F25BCECE300569A0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92ACF8A125BCECE300569A0A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
 		92ACF8A325BCECE300569A0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		92ACF89D25BCECE300569A0A /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				92ACF89C25BCECE300569A0A /* MySkatePark.app */,
+				92ACF89C25BCECE300569A0A /* Mini Skate Park.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -84,7 +84,7 @@
 			);
 			name = MySkatePark;
 			productName = MySkatePark;
-			productReference = 92ACF89C25BCECE300569A0A /* MySkatePark.app */;
+			productReference = 92ACF89C25BCECE300569A0A /* Mini Skate Park.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -292,7 +292,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jerry-lai.MySkatePark";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Mini Skate Park";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -310,7 +310,7 @@
 					"@executable_path/Frameworks",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = "jerry-lai.MySkatePark";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = "Mini Skate Park";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

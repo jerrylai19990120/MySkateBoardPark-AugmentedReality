@@ -129,6 +129,8 @@ class RampPlacerVC: UIViewController, ARSCNViewDelegate,
         let hitTransform = SCNMatrix4(hitFeature.worldTransform)
         let hitPosition = SCNVector3Make(hitTransform.m41, hitTransform.m42, hitTransform.m43)
         
+        placeRamp(position: hitPosition)
+        
     }
     
     func placeRamp(position: SCNVector3){

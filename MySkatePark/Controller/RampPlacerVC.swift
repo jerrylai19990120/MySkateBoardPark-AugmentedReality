@@ -33,7 +33,7 @@ class RampPlacerVC: UIViewController, ARSCNViewDelegate,
         sceneView.showsStatistics = true
         
         // Create a new scene
-        let scene = SCNScene(named: "../art.scnassets/main.dae")!
+        let scene = SCNScene(named: "../art.scnassets/main.scn")!
         sceneView.autoenablesDefaultLighting = true
         
         // Set the scene to the view

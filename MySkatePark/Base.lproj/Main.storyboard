@@ -18,19 +18,11 @@
                             <arscnView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Cal-97-c9C">
                                 <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                             </arscnView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJP-ac-lzc">
-                                <rect key="frame" x="287" y="791" width="107" height="71"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" image="rampIcon"/>
-                                <connections>
-                                    <action selector="onRampBtnPressed:" destination="BV1-FR-VrT" eventType="touchUpInside" id="iZ1-ns-fOf"/>
-                                </connections>
-                            </button>
-                            <stackView opaque="NO" contentMode="scaleToFill" fixedFrame="YES" distribution="fillEqually" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="rej-pE-DTP">
-                                <rect key="frame" x="38" y="820" width="216" height="42"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" distribution="fillEqually" spacing="38" translatesAutoresizingMaskIntoConstraints="NO" id="rej-pE-DTP">
+                                <rect key="frame" x="26" y="810" width="362" height="52"/>
                                 <subviews>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YPW-xm-sEO">
-                                        <rect key="frame" x="0.0" y="0.0" width="42" height="42"/>
+                                        <rect key="frame" x="0.0" y="0.0" width="42" height="52"/>
                                         <constraints>
                                             <constraint firstAttribute="width" constant="42" id="ZPY-Dl-7S9"/>
                                             <constraint firstAttribute="height" constant="42" id="p4m-0F-P9c"/>
@@ -41,7 +33,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="mxj-NG-mbN">
-                                        <rect key="frame" x="58" y="0.0" width="42" height="42"/>
+                                        <rect key="frame" x="80" y="0.0" width="42" height="52"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="42" id="OGk-id-U1j"/>
                                             <constraint firstAttribute="width" constant="42" id="WMx-wE-Tbz"/>
@@ -52,7 +44,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fln-n3-of9">
-                                        <rect key="frame" x="116" y="0.0" width="42" height="42"/>
+                                        <rect key="frame" x="160" y="0.0" width="42" height="52"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="42" id="7OW-ce-d3t"/>
                                             <constraint firstAttribute="width" constant="42" id="rzV-XO-RjJ"/>
@@ -63,7 +55,7 @@
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="IIv-gz-Zrs">
-                                        <rect key="frame" x="174" y="0.0" width="42" height="42"/>
+                                        <rect key="frame" x="240" y="0.0" width="42" height="52"/>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="42" id="3OI-fr-ZrJ"/>
                                             <constraint firstAttribute="width" constant="42" id="Wz8-E2-4w6"/>
@@ -73,14 +65,28 @@
                                             <action selector="onDownPressed:" destination="BV1-FR-VrT" eventType="touchUpInside" id="Mp1-l8-dxW"/>
                                         </connections>
                                     </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iJP-ac-lzc">
+                                        <rect key="frame" x="320" y="0.0" width="42" height="52"/>
+                                        <state key="normal" image="rampIcon"/>
+                                        <connections>
+                                            <action selector="onRampBtnPressed:" destination="BV1-FR-VrT" eventType="touchUpInside" id="iZ1-ns-fOf"/>
+                                        </connections>
+                                    </button>
                                 </subviews>
                             </stackView>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <constraints>
                             <constraint firstItem="Cal-97-c9C" firstAttribute="top" secondItem="U0K-SW-4ec" secondAttribute="top" id="1O8-40-rbZ"/>
+                            <constraint firstItem="rej-pE-DTP" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" constant="48" id="8c4-m1-fip"/>
+                            <constraint firstAttribute="bottom" secondItem="rej-pE-DTP" secondAttribute="bottom" constant="48" id="DiU-3H-sgx"/>
+                            <constraint firstItem="rej-pE-DTP" firstAttribute="bottom" secondItem="fQZ-KI-GVf" secondAttribute="bottom" constant="10" id="Fye-8T-ZR2"/>
+                            <constraint firstItem="rej-pE-DTP" firstAttribute="top" secondItem="fQZ-KI-GVf" secondAttribute="top" constant="776" id="G3y-9t-ACf"/>
+                            <constraint firstItem="rej-pE-DTP" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" constant="38" id="OPF-5j-2M6"/>
                             <constraint firstItem="Cal-97-c9C" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" id="PJd-ej-idB"/>
                             <constraint firstAttribute="bottom" secondItem="Cal-97-c9C" secondAttribute="bottom" id="dEg-cB-IgZ"/>
+                            <constraint firstAttribute="bottom" secondItem="rej-pE-DTP" secondAttribute="bottom" constant="38" id="eTk-Oe-mcD"/>
+                            <constraint firstItem="rej-pE-DTP" firstAttribute="leading" secondItem="fQZ-KI-GVf" secondAttribute="leading" constant="10" id="f9W-rB-sSK"/>
                             <constraint firstItem="Cal-97-c9C" firstAttribute="trailing" secondItem="fQZ-KI-GVf" secondAttribute="trailing" id="slX-hb-vo3"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="fQZ-KI-GVf"/>

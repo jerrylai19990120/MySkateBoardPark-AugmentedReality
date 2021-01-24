@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		92ACF8A025BCECE300569A0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ACF89F25BCECE300569A0A /* AppDelegate.swift */; };
 		92ACF8A225BCECE300569A0A /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 92ACF8A125BCECE300569A0A /* art.scnassets */; };
-		92ACF8A425BCECE300569A0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ACF8A325BCECE300569A0A /* ViewController.swift */; };
+		92ACF8A425BCECE300569A0A /* RampPlacerVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 92ACF8A325BCECE300569A0A /* RampPlacerVC.swift */; };
 		92ACF8A725BCECE300569A0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92ACF8A525BCECE300569A0A /* Main.storyboard */; };
 		92ACF8A925BCECE500569A0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 92ACF8A825BCECE500569A0A /* Assets.xcassets */; };
 		92ACF8AC25BCECE500569A0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 92ACF8AA25BCECE500569A0A /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		92ACF89C25BCECE300569A0A /* Mini Skate Park.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mini Skate Park.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		92ACF89F25BCECE300569A0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		92ACF8A125BCECE300569A0A /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
-		92ACF8A325BCECE300569A0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		92ACF8A325BCECE300569A0A /* RampPlacerVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RampPlacerVC.swift; sourceTree = "<group>"; };
 		92ACF8A625BCECE300569A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		92ACF8A825BCECE500569A0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		92ACF8AB25BCECE500569A0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +56,23 @@
 		92ACF89E25BCECE300569A0A /* MySkatePark */ = {
 			isa = PBXGroup;
 			children = (
+				92ACF8B325BCF2C700569A0A /* Controller */,
 				92ACF89F25BCECE300569A0A /* AppDelegate.swift */,
 				92ACF8A125BCECE300569A0A /* art.scnassets */,
-				92ACF8A325BCECE300569A0A /* ViewController.swift */,
 				92ACF8A525BCECE300569A0A /* Main.storyboard */,
 				92ACF8A825BCECE500569A0A /* Assets.xcassets */,
 				92ACF8AA25BCECE500569A0A /* LaunchScreen.storyboard */,
 				92ACF8AD25BCECE500569A0A /* Info.plist */,
 			);
 			path = MySkatePark;
+			sourceTree = "<group>";
+		};
+		92ACF8B325BCF2C700569A0A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				92ACF8A325BCECE300569A0A /* RampPlacerVC.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,7 +147,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				92ACF8A425BCECE300569A0A /* ViewController.swift in Sources */,
+				92ACF8A425BCECE300569A0A /* RampPlacerVC.swift in Sources */,
 				92ACF8A025BCECE300569A0A /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
